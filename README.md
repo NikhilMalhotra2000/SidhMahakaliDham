@@ -1,6 +1,6 @@
 # SidhMahakaliDham
 
-Visit <a href="www.sidhmahakalidham.com">sidhmahakalidham.com</a>
+Visit sidhmahakalidham.com
 This is the site I created for a client, it was a bit of a challenge to develop the right structure for a website on temple.
 Feel free to make any changes in the repository if you like.
 
