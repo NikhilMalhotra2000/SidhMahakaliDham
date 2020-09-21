@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="SidhMahakaliDham">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css">
+
+    <title>Birth of Maa Kali</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+<style>
+
+
+
+
+$font-family: 'Lato';
+$font-family-fallback: sans-serif;
+$font-size: 1em;
+$font-weight: 300;
+
+$line-height: 1.5em;
+
+$amount: 10%;
+
+$grid-container: 940px;
+
+
+
+$color: #5b5b5b;
+$color-bg: #fff;
+
+$color-link: #3498db;
+$color-link-hover: darken($color-link, $amount);
+
+
+
+body {
+  background: $color-bg;
+	color: $color;
+  font: $font-weight #{$font-size}/#{$line-height} $font-family, $font-family-fallback;
+	margin: 0;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  
+  &:hover {
+    color: $color-link-hover;
+  }
+  
+}
+
+article {
+  display: block;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+  margin: 0 0 .25em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.33em;
+  margin: 0 0 .33em 0;
+}
+
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 .5em 0;
+}
+
+p {
+  margin: 0 0 .5em 0;
+}
+
+
+
+.clearfix {
+	*zoom: 1;
+
+	&:before, &:after {
+		content: ' ';
+		display: table; 
+	}
+
+	&:after { clear: both; }
+
+}
+
+
+
+.container {
+	@extend .clearfix;
+	margin: 0 auto;
+	width: $grid-container;
+}
+
+/*---------- HEADER ----------*/
+
+.header {
+	padding: 1em 0;
+}
+
+/*---------- MAIN ----------*/
+
+.main {
+  margin-top: 3em;
+}
+
+
+
+.nav-main {
+  float: right;
+  
+  ul {
+    @extend .clearfix;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+    margin: 0 .5em;
+    
+    &.first {
+      margin-left: 0;
+    }
+    
+    &.last {
+      margin-right: 0;
+    }
+    
+  }
+  
+  a {
+    color: $color;
+    display: inline-block;
+  }
+  
+}
+
+
+
+.post {
+  margin-bottom: 2em;
+}
+
+/*---------- BANNER ----------*/
+
+/* INFO
+   Banner Graphic must be at least the height of .banner + height of parent element (in this case the header)
+   e.g.  .banner { height: 22em }
+         .header { height: 3.5em }
+         22em + 3.5em = 25.5em
+         25.5em * 16px = 408px
+         => Banner Graphic must be at least 408px height!
+
+Graphic: http://unsplash.com/post/81123587039/download-by-wojtek-witkowski
+*/
+
+.banner {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Dakshineshwar_Temple_-_Calcutta_%28Kolkata%29_-_1865.jpg) no-repeat fixed 50%;
+	height: 22em;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.banner-text {
+  color: #fff;
+  font-size: 1.25em;
+  left: 0;
+  position: absolute;
+  top: 75%;
+  text-align: center;
+  text-shadow: 0 0px 2px rgba(0, 0, 0, .5);
+  width: 100%; 
+}
+
+</style>
+
+<script>
+
+// scrollBanner
+
+function scrollBanner(config) {
+
+	scrollPos = $(this).scrollTop();
+
+	config.bannerText.css({
+		'margin-top' : -(scrollPos/3) + "px",
+		'opacity' : 1-(scrollPos/300)
+	});
+
+	config.banner.css({
+		'background-position': 'center ' + (-scrollPos/4) + "px"
+	});
+
+}
+
+$(document).ready(function(){
+	
+	$(window).scroll(function() {
+
+		scrollBanner({
+			banner: $('.banner'),
+			bannerText: $('.banner-text')
+		});
+
+	});
+
+});
+
+</script>
+
+
+  </head>
+
+  <body>
+	
+  
+
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+              <li><a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 09:00-17:00</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>090-080-0760</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="right-icons">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" style="margin-left:13%;"><h2>Sidh Mahakali Dham</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Donation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+	
+
+	<div class="banner">
+
+		<div class="banner-text">
+			
+			<h3>The Birth of Maa Kali</h3>
+       
+
+		</div> 
+		
+	</div> <!-- end banner -->
+
+	<div class="main">
+	 
+		 <div class="container">
+		
+			<div class="post">
+			<img src="assets\images\makali.jpeg" style="height:30% ;width:30%">
+			<br>
+				
+			There are several traditions of how Kali came into existence. One version relates when the warrior goddess Durga, who had ten arms each carrying a weapon and who rode a lion or tiger in battle, fought with Mahishasura (or Mahisa), the buffalo demon. Durga became so enraged that her anger burst from her forehead in the form of Kali. Once born, the black goddess went wild and ate all the demons she came across, stringing their heads on a chain which she wore around her neck. It seemed impossible to calm Kali’s bloody attacks, which now extended to any wrongdoers, and both people and gods were at a loss what to do. Fortunately, the mighty Shiva stopped Kali’s destructive rampage by lying down in her path, and when the goddess realised just who she was standing on, she finally calmed down. From this story is explained Kali’s association with battlegrounds and areas where cremation is carried out.
+
+In another version of the goddess’ birth, Kali appeared when Parvati shed her dark skin which then became Kali, hence one of her names is Kaushika (the Sheath), whilst Parvati is left as Gauri (the Fair One). This story emphasises Kali’s blackness which is symbolic of eternal darkness and which has the potential to both destroy and create.
+
+Kalighat Temple
+Kalighat Temple
+by Giridhar Appaji Nag Y (CC BY)
+In a third version, men and gods were being terrorised by Daruka who could only be killed by a woman, and Parvati was asked by the gods to deal with the troublesome demon. She responded by jumping down Shiva’s throat. This was because many years previously Shiva had swallowed halahala, the poison which had risen from the churning of the ocean during the creation and which had threatened to pollute the world. By combining with the poison still held in Shiva’s throat, Parvati was transformed into Kali. Leaping from Shiva’s throat in her new guise, Kali swiftly despatched Daruka and all was well with the world once more.
+
+
+			</div> 
+		
+			
+			
+			
+
+		</div> 
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	 <!-- Footer -->
+       <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 footer-item">
+            <h4>Sidh Mahakali Dham</h4>
+            <p>Where we worship mahakali diligently</p>
+            <ul class="social-icons">
+              <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              
+            </ul>
+          </div>
+         
+          <div class="col-md-6 footer-item">
+            <h4>Additional Pages</h4>
+            <ul class="menu-list">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">How We Work</a></li>
+              
+              <li><a href="contact.html">Contact Us</a></li>
+              
+            </ul>
+          </div>
+         
+    </footer>
+    
+   </body>
+</html>

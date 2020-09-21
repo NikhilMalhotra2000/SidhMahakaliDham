@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="SidhMahakaliDham">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css">
+
+    <title>Birth of Maa Kali</title>
+
+    
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+<style>
+
+
+
+
+$font-family: 'Lato';
+$font-family-fallback: sans-serif;
+$font-size: 1em;
+$font-weight: 300;
+
+$line-height: 1.5em;
+
+$amount: 10%;
+
+$grid-container: 940px;
+
+
+
+$color: #5b5b5b;
+$color-bg: #fff;
+
+$color-link: #3498db;
+$color-link-hover: darken($color-link, $amount);
+
+
+
+body {
+  background: $color-bg;
+	color: $color;
+  font: $font-weight #{$font-size}/#{$line-height} $font-family, $font-family-fallback;
+	margin: 0;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  
+  &:hover {
+    color: $color-link-hover;
+  }
+  
+}
+
+article {
+  display: block;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+  margin: 0 0 .25em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.33em;
+  margin: 0 0 .33em 0;
+}
+
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 .5em 0;
+}
+
+p {
+  margin: 0 0 .5em 0;
+}
+
+
+
+.clearfix {
+	*zoom: 1;
+
+	&:before, &:after {
+		content: ' ';
+		display: table; 
+	}
+
+	&:after { clear: both; }
+
+}
+
+
+
+.container {
+	@extend .clearfix;
+	margin: 0 auto;
+	width: $grid-container;
+}
+
+
+
+.header {
+	padding: 1em 0;
+}
+
+
+.main {
+  margin-top: 3em;
+}
+
+
+
+.nav-main {
+  float: right;
+  
+  ul {
+    @extend .clearfix;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+    margin: 0 .5em;
+    
+    &.first {
+      margin-left: 0;
+    }
+    
+    &.last {
+      margin-right: 0;
+    }
+    
+  }
+  
+  a {
+    color: $color;
+    display: inline-block;
+  }
+  
+}
+
+
+
+.post {
+  margin-bottom: 2em;
+}
+
+
+
+/* INFO
+   Banner Graphic must be at least the height of .banner + height of parent element (in this case the header)
+   e.g.  .banner { height: 22em }
+         .header { height: 3.5em }
+         22em + 3.5em = 25.5em
+         25.5em * 16px = 408px
+         => Banner Graphic must be at least 408px height!
+
+Graphic: http://unsplash.com/post/81123587039/download-by-wojtek-witkowski
+*/
+
+.banner {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Dakshineshwar_Temple_-_Calcutta_%28Kolkata%29_-_1865.jpg) no-repeat fixed 50%;
+	height: 22em;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.banner-text {
+  color: #fff;
+  font-size: 1.25em;
+  left: 0;
+  position: absolute;
+  top: 75%;
+  text-align: center;
+  text-shadow: 0 0px 2px rgba(0, 0, 0, .5);
+  width: 100%; 
+}
+
+</style>
+
+<script>
+
+
+
+function scrollBanner(config) {
+
+	scrollPos = $(this).scrollTop();
+
+	config.bannerText.css({
+		'margin-top' : -(scrollPos/3) + "px",
+		'opacity' : 1-(scrollPos/300)
+	});
+
+	config.banner.css({
+		'background-position': 'center ' + (-scrollPos/4) + "px"
+	});
+
+}
+
+$(document).ready(function(){
+	
+	$(window).scroll(function() {
+
+		scrollBanner({
+			banner: $('.banner'),
+			bannerText: $('.banner-text')
+		});
+
+	});
+
+});
+
+</script>
+
+
+  </head>
+
+  <body>
+	
+  
+
+
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+              <li><a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 09:00-17:00</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>090-080-0760</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="right-icons">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" style="margin-left:13%;"><h2>Sidh Mahakali Dham</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Donation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+	
+
+	<div class="banner">
+
+		<div class="banner-text">
+			
+			<h3>Name and Worship</h3>
+       
+
+		</div>
+		
+	</div> 
+
+	<div class="main">
+	 
+		 <div class="container">
+		
+			<div class="post">
+			<img src="assets\images\col.jpeg" style="height:30% ;width:30%">
+			<br>
+				
+		Kali’s name derives from the Sanskrit meaning ‘she who is black’ or ‘she who is death’, but she is also known as Chaturbhuja Kali, Chinnamastā, or Kaushika. As an embodiment of time Kali devours all things, she is irresistibly attractive to mortals and gods, and can also represent (particularly in later traditions) the benevolence of a mother goddess.
+
+KALI’S NAME DERIVES FROM THE SANSKRIT MEANING ‘SHE WHO IS BLACK’ OR ‘SHE WHO IS DEATH’.
+The goddess is particularly worshipped in eastern and southern India and specifically in Assam, Kerala, Kashmir, Bengal, - where she is now worshipped in the yearly festival of Kali Puja held on the night of a new moon - and in the Kalighat Temple in the city of Calcutta.
+
+			</div> 
+		
+			
+			
+			
+
+		</div> 
+		
+	</div> 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	
+        <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 footer-item">
+            <h4>Sidh Mahakali Dham</h4>
+            <p>Where we worship mahakali diligently</p>
+            <ul class="social-icons">
+              <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              
+            </ul>
+          </div>
+         
+          <div class="col-md-6 footer-item">
+            <h4>Additional Pages</h4>
+            <ul class="menu-list">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">How We Work</a></li>
+              
+              <li><a href="contact.html">Contact Us</a></li>
+              
+            </ul>
+          </div>
+         
+    </footer>
+    
+   </body>
+</html>
